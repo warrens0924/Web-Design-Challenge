@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--Navbar adjustments-->
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand text-white" href="index.html">Latitude</a>
@@ -45,46 +45,31 @@
         </div>
     </nav>
 
-    <div class="container content">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="col-md-12">
-                    <h3>Humidity</h3>
-                    <hr>
+    <div class="row content">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <h2 class="text-left">Humidity</h2>
+            <hr class="my-4">
                     
                     <img src="Resources/assets/images/Fig2.png" width="100%" alt="humidity">
                     <br>
                     <p>Humidity vs latitude plot is not showing any trends. Humidity appears to be mostly regular across latitudes, though with an absence of lower humidity values near the equator and Arctic. This makes sense, due to the humidity of tropical climates, and the northern latitudes being on the boundary between winter and spring.  </p>
                 </div>
-            </div>
-<!--visualization part of the page-->            
-            <div class="col-md-4">
-                <div class="col-md-12">
-                    <h3>Visualizations</h3>
-                    <hr>
-                    <div class="row">
-                        <div class="col-3 col-md-6">
-                            <a href="temp.html"><img src="Resources/assets/images/Fig1.png" width="100%" alt="temprature">
-                            </a>
-                        </div>
-                        
-                        <div class="col-3 col-md-6">
-                            <a href="humidity.html"><img class="pic" src="Resources/assets/images/Fig2.png" width="100%" alt="humidity"></a>
-                        </div>
+                <div class="col-sm-12 col-md-4 col-lg-4" >
+                    <h2 class="text-left">Visualizations</h2>
+                    <hr class="my-4">
                     
-                        <div class="col-3 col-md-6">
-                            <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" width="100%" alt="cloudiness"></a>
-                        </div>
-                        
-                        <div class="col-3 col-md-6">
-                            <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" width="100%" alt="windspeed"></a>
-                        </div>
-                    </div>
+                    <a href="temp.html">
+                        <img src="./Resources/assets/images/Fig1.png" class="rounded float-left thumbnail" alt="Latitude vs Temperature">
+                    </a>
+                    <a href="humidity.html">
+                        <img src="./Resources/assets/images/Fig2.png" class="rounded float right thumbnail" alt="Latitude vs Humidity">
+                    </a>
+                    <a href="cloudiness.html">
+                        <img src="./Resources/assets/images/Fig3.png" class="rounded float-left  thumbnail" alt="Latitude vs Temperature">
+                    </a>
+                    <a href="windSpeed.html">
+                        <img src="./Resources/assets/images/Fig4.png" class="rounded float right  thumbnail" alt="Latitude vs Humidity">
+                    </a>
                 </div>
-            </div>            
-        </div>    
-    </div>
-    <!-- Footer -->
-    <footer class="page-footer font-small footer-dark">
-        <div class="footer-copyright text-center py-3">© Copyright Coding Bootcamp 2019
-        </div>      
+            </div>
+        </body>
